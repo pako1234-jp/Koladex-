@@ -1,0 +1,62 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Koladex International Construction Company Limited</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; color:#222; }
+    header { background:#1f2937; color:#fff; padding:20px; }
+    header h1 { margin:0; }
+    nav a { color:#fff; margin-right:15px; text-decoration:none; font-weight:bold; }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('uploaded-construction-image');
+      background-size: cover;
+      background-position: center;
+      padding: 80px 20px;
+      text-align: center;
+      color: #ffffff;
+    }
+    .hero h2 { font-size:36px; margin-bottom:10px; }
+    .section { padding:40px 20px; max-width:1100px; margin:auto; }
+    .services { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .card { background:#fff; padding:20px; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+    footer { background:#1f2937; color:#fff; text-align:center; padding:20px; }
+    .btn { display:inline-block; margin-top:15px; padding:10px 20px; background:#d97706; color:#fff; text-decoration:none; border-radius:5px; }
+  </style>
+</head>
+<body><header>
+  <h1>Koladex International Construction Company Limited</h1>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header><section class="hero" id="home">
+  <h2>Building Strong Foundations</h2>
+  <p>Trusted construction services for residential and commercial projects</p>
+  <a href="#contact" class="btn">Get a Quote</a>
+</section><section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Koladex International Construction Company Limited is a professional construction company specializing in quality building, renovation, and civil works. We deliver strong, safe, and modern structures.</p>
+</section><section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card"><h3>Building Construction</h3><p>Residential and commercial buildings.</p></div>
+    <div class="card"><h3>Renovation</h3><p>Modern renovation and remodeling.</p></div>
+    <div class="card"><h3>Road & Civil Works</h3><p>Infrastructure and earthworks.</p></div>
+    <div class="card"><h3>Material Supply</h3><p>Granite, sand, stone dust, laterite.</p></div>
+  </div>
+</section><section class="section" id="projects">
+  <h2>Our Projects</h2>
+  <p>Images and details of completed projects will be displayed here.</p>
+</section><section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Phone: 0803 303 3011</p>
+  <p>Email: info@koladexconstruction.com</p>
+  <p>Location: Nigeria</p>
+</section><footer>
+  <p>© 2026 Koladex International Construction Company Limited. All rights reserved.</p>
+</footer></body>
+</html>
